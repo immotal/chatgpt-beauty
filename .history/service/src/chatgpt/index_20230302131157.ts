@@ -34,7 +34,7 @@ let api: ChatGPTAPI | ChatGPTUnofficialProxyAPI
   else {
     const options: ChatGPTUnofficialProxyAPIOptions = {
       accessToken: process.env.OPENAI_ACCESS_TOKEN,
-      debug: true,
+      debug: false,
     }
 
     if (process.env.SOCKS_PROXY_HOST && process.env.SOCKS_PROXY_PORT) {

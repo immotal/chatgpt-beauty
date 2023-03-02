@@ -38,10 +38,6 @@ onMounted(() => {
         Version - {{ pkg.version }}
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
-        <p>
-          欢迎来到未来世界...
-        </p>
-      </div>
       <p>API方式：{{ config?.apiModel ?? '-' }}</p>
       <p>反向代理：{{ config?.reverseProxy ?? '-' }}</p>
       <p>超时时间：{{ config?.timeoutMs ?? '-' }}</p>
