@@ -8,6 +8,7 @@ export interface ChatContext {
 export interface ChatGPTAPIOptions {
   apiKey: string
   debug?: boolean
+  apiBaseUrl?: string
   completionParams?: Partial<openai.CompletionParams>
 }
 
